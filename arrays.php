@@ -1,63 +1,43 @@
 <?php
-	$lineBreak = "<br />";
+	#Array - Variable that holds multiple values
+	/*
+		- Indexed
+		- Associative
+		- Multi-dimensional
+	*/
 
-	//Indexed Array
-	$name = array('abdullah', 'al', 'maruf');
-	$name[3] = 'ropy';
-	var_dump($name);
-	echo($lineBreak);
+	// Indexed
+	$people = array('Kevin', 'Jeremy', 'Sara');
+	$ids = array(23, 55, 12);
+	$cars = ['Honda', 'Toyota', 'Ford'];
+	$cars[3] = 'Chevy';
+	$cars[] = 'BMW';
 
-	echo($lineBreak);
+	//echo count($cars);
+	//print_r($cars);
+	//var_dump($cars);
 
-	$cars = ['audi', 'bmw', 'mercedes'];
-	$cars[] = 'cadillac';	
-	echo count($cars);
-	echo($lineBreak);
+	//echo $people[3];
+	//echo $ids[2];
+	//echo $cars[4];
 
-	print_r($cars);
-	echo($lineBreak);
-
-	var_dump($cars);
-	echo($lineBreak);
-
-	echo($lineBreak);
-
-	$numbers = array(2, 7, 8);
-	var_dump($numbers);
-	echo($lineBreak);
-
-	echo($lineBreak);
-
-	//Associative Array
+	// Associative arrays
 	$people = array('Brad' => 35, 'Jose' => 32, 'William' => 37);
-	var_dump($people);
-	echo($lineBreak);
-
-	$people['Jill'] = 42;
-	var_dump($people);
-	echo($lineBreak);
-
-	echo($lineBreak);
-
 	$ids = [22 => 'Brad', 44 => 'Jose', 63 => 'William'];
-	var_dump($ids);
-	echo($lineBreak);
 
-	$ids[42] = 'Jill';
-	var_dump($ids);
-	echo($lineBreak);
+	//echo $people['Brad'];
+	//echo $ids[22];
+	$people['Jill'] = 42;
+	//echo $people['Jill'];
+	//print_r($people);
+	//var_dump($people);
 
-	echo($lineBreak);
-	
-	//Multidimensional Array
-	$shop = array(
-		['laptops', 50, 10],
-		['cellphones', 100, 30],
-		['headphones', 500, 120]
+	//Multi-Dimensional
+	$cars = array(
+		array('Honda', 20, 10),
+		array('Toyota', 30, 20),
+		array('Ford', 23, 12)
 	);
-	var_dump($shop);
-	echo($lineBreak);
 
-	echo $shop[1][2];
-	echo($lineBreak);
+	echo $cars[1][2];
 ?>
