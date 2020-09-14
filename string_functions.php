@@ -35,13 +35,13 @@
 		var_dump($trimmed);
 	*/
 
-	# strtoupper
+	# strtoupper()
 	# Makes everything uppercase
 
 	//$output = strtoupper('Hello World');
 	//echo $output;
 
-	# strtolower
+	# strtolower()
 	# Makes everything lowercase
 
 	//$output = strtolower('Hello World');
@@ -76,8 +76,8 @@
 	}
 	*/
 
-	# gzcompress()
-	# Compress a string
+	# gzcompress()/gzuncompress()
+	# Compress/Decompress a string
 
 	$string =
 	"Lorem ipsum dolor sit amet, consectetur

@@ -68,9 +68,9 @@
 	*/
 
 	$arr = array(
-		"name" => "brad traversy",
+		"name" => "hello world",
 		"age" => "133",
-		"email" => "brad@gmail..com"
+		"email" => "hello@gmail..com"
 	);
 
 	$filters = array(

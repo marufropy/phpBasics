@@ -1,5 +1,5 @@
 <?php
-	$user = ['name' => 'Brad', 'email' => 'test@test.com', 'age' => 35];
+	$user = ['name' => 'John', 'email' => 'test@test.com', 'age' => 35];
 
 	$user = serialize($user);
 
